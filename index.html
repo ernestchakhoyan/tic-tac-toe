@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tic Tac Toe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="startGame()">
+
+<h1>Tic Tac Toe</h1>
+<div id="message">Message here</div>
+<table border="1">
+    <tr>
+        <td class="square" onclick="nextMove(this)" id="s_1"></td>
+        <td class="square" onclick="nextMove(this)" id="s_2"></td>
+        <td class="square" onclick="nextMove(this)" id="s_3"></td>
+    </tr>
+    <tr>
+        <td class="square" onclick="nextMove(this)" id="s_4"></td>
+        <td class="square" onclick="nextMove(this)" id="s_5"></td>
+        <td class="square" onclick="nextMove(this)" id="s_6"></td>
+    </tr>
+    <tr>
+        <td class="square" onclick="nextMove(this)" id="s_7"></td>
+        <td class="square" onclick="nextMove(this)" id="s_8"></td>
+        <td class="square" onclick="nextMove(this)" id="s_9"></td>
+    </tr>
+</table>
+<a id="restart" href="javascript:startGame()">Start over</a>
+
+<script src="common.js"></script>
+</body>
+</html>

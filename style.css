@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Quicksand');
+
+
+body{
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 15px 0 15px;
+}
+table{
+    margin:0 auto;
+}
+h1{
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+.square {
+    font-family: 'Amatic SC', cursive;
+    height:80px;
+    width:80px;
+    font-size: 45pt;
+    text-align: center;
+    cursor: pointer;
+}
+#message , #restart{
+    font-size:18pt;
+    margin-bottom:10px;
+    text-decoration: none;
+    color: #000000;
+}
